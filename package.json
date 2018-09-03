@@ -55,6 +55,7 @@
     "babel-preset-react-native": "^3.0.2",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
+    "flow-bin": "^0.80.0",
     "husky": "^0.14.3",
     "ignite-ir-boilerplate-andross": "^2.3.3",
     "ignite-standard": "^1.0.0",
