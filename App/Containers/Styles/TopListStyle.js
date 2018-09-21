@@ -4,26 +4,17 @@ import { ApplicationStyles, Metrics, Colors } from '../../Themes'
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
   container: {
-    justifyContent: 'center',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    margin: 'auto',
+    flex: 1,
     backgroundColor: Colors.background
   },
   row: {
     flex: 1,
-    margin: 5,
-    minWidth: 110,
-    maxWidth: 223,
-    height: 304,
-    maxHeight:304,
     backgroundColor: Colors.fire,
     marginVertical: Metrics.smallMargin,
-    justifyContent: 'center'
-  },
-  image: {
-    width: 50,
-    height: 50
+    margin: 10,
+    padding: 5,
+    paddingVertical: 10,
+    borderRadius: Metrics.smallMargin
   },
   boldLabel: {
     fontWeight: 'bold',
@@ -35,6 +26,10 @@ export default StyleSheet.create({
   label: {
     textAlign: 'center',
     color: Colors.snow
+  },
+  image: {
+    flex: 1,
+    width: '100%'
   },
   listContent: {
     marginTop: Metrics.baseMargin

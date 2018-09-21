@@ -1,11 +1,12 @@
 import React from 'react'
-import { View, Text, FlatList, Image } from 'react-native'
+import { View, Text, Image, FlatList } from 'react-native'
 import { connect } from 'react-redux'
 
 // More info here: https://facebook.github.io/react-native/docs/flatlist.html
 
 // Styles
 import styles from './Styles/TopListStyle'
+import { Images } from '../Themes'
 
 class TopList extends React.PureComponent {
   /* ***********************************************************
@@ -15,13 +16,13 @@ class TopList extends React.PureComponent {
   *************************************************************/
   state = {
     dataObjects: [
-      {title: 'First Title', description: 'First Description'},
-      {title: 'Second Title', description: 'Second Description'},
-      {title: 'Third Title', description: 'Third Description'},
-      {title: 'Fourth Title', description: 'Fourth Description'},
-      {title: 'Fifth Title', description: 'Fifth Description'},
-      {title: 'Sixth Title', description: 'Sixth Description'},
-      {title: 'Seventh Title', description: 'Seventh Description'}
+      {title: 'First Title', description: 'First Description', image: Images.testImage},
+      {title: 'Second Title', description: 'Second Description', image: Images.testImage},
+      {title: 'Third Title', description: 'Third Description', image: Images.testImage},
+      {title: 'Fourth Title', description: 'Fourth Description', image: Images.testImage},
+      {title: 'Fifth Title', description: 'Fifth Description', image: Images.testImage},
+      {title: 'Sixth Title', description: 'Sixth Description', image: Images.testImage},
+      {title: 'Seventh Title', description: 'Seventh Description', image: Images.testImage}
     ]
   }
 
@@ -36,9 +37,11 @@ class TopList extends React.PureComponent {
   renderRow ({item}) {
     return (
       <View style={styles.row}>
-        <Image source={{uri: 'https://facebook.github.io/react/logo-og.png'}}
-            style={styles.image} />
+        <Text style={styles.boldLabel}>{item.title}</Text>
         <Text style={styles.label}>{item.description}</Text>
+        <Image style={styles.image}
+              source={item.image}
+              resizeMode="contain" />
       </View>
     )
   }
@@ -92,6 +95,7 @@ class TopList extends React.PureComponent {
           contentContainerStyle={styles.listContent}
           data={this.state.dataObjects}
           renderItem={this.renderRow}
+          numColumns={2}
           keyExtractor={this.keyExtractor}
           initialNumToRender={this.oneScreensWorth}
           ListHeaderComponent={this.renderHeader}
