@@ -4,6 +4,9 @@
 ## Idea
 You wake up in the morning... What the \*ack?! you're feeling really bad. You try to find your phone to ask your friends if they are ok and see where they are but the question you're intrested in is most likely "Who am I? and why does my face look like it's been bitten by bees?". Now you start to recall yesterday - beer, beer, beer again, wiskey, vodka.. oh so much vodka... Now you know your friends won't be feeling any better than you right now. And still, the main question of this morning "WHO IS THE BEST BEEKEEPER TODAY?!".
 
+## Mockup
+![Beekeeper video](https://github.com/vinfinit/BeekeeperNative/raw/master/mockup/beekeeper-video.gif)
+
 ## How to Setup
 
 **Step 1:** git clone this repo:
@@ -22,23 +25,6 @@ You wake up in the morning... What the \*ack?! you're feeling really bad. You tr
   * for Android
     * Run Genymotion
     * run `react-native run-android`
-
-## Standard Compliant
-
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-This project adheres to Standard.  Our CI enforces this, so we suggest you enable linting to keep your project compliant during development.
-
-**To Lint on Commit**
-
-This is implemented using [husky](https://github.com/typicode/husky). There is no additional setup needed.
-
-**Bypass Lint**
-
-If you have to bypass lint for a special commit that you will come back and clean (pushing something to a branch etc.) then you can bypass git hooks with adding `--no-verify` to your commit command.
-
-**Understanding Linting Errors**
-
-The linting rules are from JS Standard and React-Standard.  [Regular JS errors can be found with descriptions here](http://eslint.org/docs/rules/), while [React errors and descriptions can be found here](https://github.com/yannickcr/eslint-plugin-react).
 
 ## :closed_lock_with_key: Secrets
 
