@@ -1,9 +1,10 @@
 #  BeekeeperNative
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-* Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
+## Idea
+You wake up in the morning... What the \*ack?! you're feeling really bad. You try to find your phone to ask your friends if they are ok and see where they are but the question you're intrested in is most likely "Who am I? and why does my face look like it's been bitten by bees?". Now you start to recall yesterday - beer, beer, beer again, wiskey, vodka.. oh so much vodka... Now you know your friends won't be feeling any better than you right now. And still, the main question of this morning "WHO IS THE BEST BEEKEEPER TODAY?!".
 
-## :arrow_up: How to Setup
+## How to Setup
 
 **Step 1:** git clone this repo:
 
@@ -12,7 +13,7 @@
 **Step 3:** Install the Application with `yarn` or `npm i`
 
 
-## :arrow_forward: How to Run App
+## How to Run App
 
 1. cd to the repo
 2. Run Build for either OS
@@ -22,7 +23,7 @@
     * Run Genymotion
     * run `react-native run-android`
 
-## :no_entry_sign: Standard Compliant
+## Standard Compliant
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 This project adheres to Standard.  Our CI enforces this, so we suggest you enable linting to keep your project compliant during development.
