@@ -1,5 +1,9 @@
 #  BeekeeperNative
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+
+BeekeeperNative is a part of [BEEKEEPER](https://github.com/vinfinit/Beekeeper) project
+1. [BeekeeperNative](https://github.com/vinfinit/BeekeeperNative) - react-native application for mobile platforms
+2. [beekeeper-server](https://github.com/vinfinit/beekeeper-server) - main node.js server
+3. [beekeeper-core](https://github.com/vinfinit/beekeeper-core) - core application for hangover face recognition
 
 ## Idea
 You wake up in the morning... What the \*ack?! you're feeling really bad. You try to find your phone to ask your friends if they are ok and see where they are but the question you're intrested in is most likely "Who am I? and why does my face look like it's been bitten by bees?". Now you start to recall yesterday - beer, beer, beer again, wiskey, vodka.. oh so much vodka... Now you know your friends won't be feeling any better than you right now. And still, the main question of this morning "WHO IS THE BEST BEEKEEPER TODAY?!".
